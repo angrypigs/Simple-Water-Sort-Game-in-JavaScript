@@ -30,7 +30,7 @@ function saving_vials(save_unload) {
     }
 }
 
-function actualize_vial(h, w) {
+function update_vial(h, w) {
     for (let i=0;i<4;i++) {
         var s = document.getElementById("s"+h+"_"+w+"_"+i);
         if (Matrix[h*6+w][i]!=0) {
