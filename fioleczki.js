@@ -252,8 +252,8 @@ for (let i=0;i<2;i++) {
 document.getElementById("restart-btn").addEventListener('click', function() {restart_game();}, false);
 document.getElementById("back-btn").addEventListener('click', function() {undo_game();}, false);
 
-localStorage.clear();
-localStorage.setItem("czyZapisane", "f");
+// localStorage.clear();
+// localStorage.setItem("czyZapisane", "f");
 
 if (localStorage.getItem("czyZapisane")===null || localStorage.getItem("czyZapisane") == "f") {
     mieszaj_vials();
