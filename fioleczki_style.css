@@ -1,3 +1,6 @@
+body {
+    margin: 0px;
+}
 .fioleczka {
     position: absolute;
     width: 4%;
@@ -11,4 +14,78 @@
     height: 22%;
     border: 0px;
     pointer-events: none;
+}
+.btns {
+    position: absolute;
+    display: table;
+    margin: auto;
+    height: 10%;
+    width: 12%;
+    bottom: 50%;
+    font-size: 70px;
+    font-family: sans-serif;
+    text-align: center;
+    text-anchor: middle;
+    color: aliceblue;
+    background-image: linear-gradient(45deg, rgb(46, 46, 167), rgb(136, 56, 193));
+    border: 5px solid black;
+}
+.btns p {
+    display: table-cell;
+    margin: 0px;
+    text-align: center;
+    text-anchor: middle;
+    vertical-align: middle;
+}
+#back-btn {
+    left: 4%;
+}
+#restart-btn {
+    right: 4%;
+}
+.btns-numeral-info {
+    position: absolute;
+    top: 80%;
+    left: 90%;
+    height: 5vh;
+    width: 5vh;
+    font-size: 28px;
+    font-family: sans-serif;
+    color: aliceblue;
+    background-image: linear-gradient(45deg, rgb(90, 90, 199), rgb(90, 90, 199), rgb(167, 109, 209), rgb(167, 109, 209));
+    border: 3px solid black;
+    display: table;
+    text-align: center;
+    text-anchor: middle;
+    margin: auto;
+    
+}
+.btns-numeral-info p {
+    display: table-cell;
+    margin: 0px;
+    text-align: center;
+    text-anchor: middle;
+    vertical-align: middle;
+}
+#win-bg {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    border: 0px;
+    background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?);
+}
+#win-btn {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 45%;
+    left: 44%;
+    margin: auto;
+    background-image: linear-gradient(45deg, rgb(46, 46, 167), rgb(136, 56, 193));
+    border: 3px solid black;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    text-anchor: middle;
 }
